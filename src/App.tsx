@@ -1,24 +1,59 @@
-function App() {
-  return (
-    <main className="min-h-screen bg-white text-slate-900">
-      <section className="mx-auto flex min-h-screen max-w-6xl items-center justify-center px-6">
-        <div className="text-center">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-orange-500">
-            Fundación ASOMDE
-          </p>
+import { useEffect } from 'react';
+import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
+import { MainLayout } from './components/layout/MainLayout';
+import { RouteMetadata } from './components/seo/RouteMetadata';
+import { AboutPage } from './pages/AboutPage';
+import { HomePage } from './pages/HomePage';
+import { LegalInfoPage } from './pages/LegalInfoPage';
+import { NotFoundPage } from './pages/NotFoundPage';
+import { ServicesPage } from './pages/ServicesPage';
+import { UserCarePage } from './pages/UserCarePage';
 
-          <h1 className="text-5xl font-bold text-emerald-700">
-            Entorno listo para construir
-          </h1>
+function ScrollManager() {
+  const location = useLocation();
 
-          <p className="mt-4 text-lg text-slate-600">
-            El proyecto ya compila correctamente. Ahora seguimos con rutas,
-            layout, header y footer.
-          </p>
-        </div>
-      </section>
-    </main>
-  )
+  useEffect(() => {
+    if (location.hash) {
+      window.requestAnimationFrame(() => {
+        const elementId = decodeURIComponent(location.hash.replace('#', ''));
+        const element = document.getElementById(elementId);
+
+        if (element) {
+          element.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+          });
+        }
+      });
+
+      return;
+    }
+
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  }, [location.pathname, location.hash]);
+
+  return null;
 }
 
-export default App
+export default function App() {
+  return (
+    <BrowserRouter>
+      <RouteMetadata />
+      <ScrollManager />
+
+      <Routes>
+        <Route element={<MainLayout />}>
+          <Route index element={<HomePage />} />
+          <Route path="nosotros" element={<AboutPage />} />
+          <Route path="servicios" element={<ServicesPage />} />
+          <Route path="atencion-usuario" element={<UserCarePage />} />
+          <Route path="informacion-legal" element={<LegalInfoPage />} />
+          <Route path="*" element={<NotFoundPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
+}
