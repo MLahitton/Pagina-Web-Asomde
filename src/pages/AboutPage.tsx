@@ -8,7 +8,6 @@ import {
   Leaf,
   MessageCircle,
   ShieldCheck,
-  Sparkles,
   Target,
   UsersRound,
 } from 'lucide-react';
