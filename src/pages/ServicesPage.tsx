@@ -53,13 +53,13 @@ export function ServicesPage() {
               </p>
 
               <h1 className="max-w-4xl text-4xl font-black tracking-tight text-slate-950 sm:text-5xl">
-                Terapias complementarias para acompañar tu bienestar integral.
+                Atención en medicina general, acupuntura y terapias integrales.
               </h1>
 
               <p className="mt-6 max-w-3xl text-lg leading-9 text-slate-600">
-                En ASOMDE ofrecemos servicios orientados al equilibrio, el bienestar y la
-                atención integral de nuestros usuarios desde la medicina bioenergética y
-                terapias complementarias.
+                En ASOMDE ofrecemos servicios orientados al cuidado, el bienestar y el
+                acompañamiento integral de nuestros usuarios, integrando medicina general,
+                acupuntura, terapias bioenergéticas y terapias alternativas especiales.
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -99,9 +99,9 @@ export function ServicesPage() {
                     </div>
 
                     <div>
-                      <p className="font-bold text-slate-950">Atención complementaria</p>
+                      <p className="font-bold text-slate-950">Atención integral</p>
                       <p className="text-sm text-slate-600">
-                        Enfoque humano e integral
+                        Medicina, bienestar y terapias alternativas
                       </p>
                     </div>
                   </div>
@@ -117,7 +117,7 @@ export function ServicesPage() {
           <SectionHeader
             eyebrow="Showcase interactivo"
             title="Explora nuestros servicios"
-            description="Selecciona un servicio para conocer su descripción. El contenido y las imágenes se podrán ajustar cuando ASOMDE valide la lista definitiva."
+            description="Selecciona un servicio para conocer su descripción. Las imágenes actuales podrán reemplazarse cuando ASOMDE entregue fotografías oficiales."
           />
 
           <div className="mt-12 grid gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
@@ -244,7 +244,7 @@ export function ServicesPage() {
           <SectionHeader
             eyebrow="Nuestro enfoque"
             title="Una atención cercana, ordenada y orientada al usuario"
-            description="La página debe comunicar confianza sin saturar al visitante. Por eso presentamos los servicios de forma clara y visual."
+            description="La página comunica los servicios de forma clara, visual y fácil de consultar, sin saturar al visitante."
             align="center"
           />
 
@@ -254,19 +254,19 @@ export function ServicesPage() {
                 icon: Stethoscope,
                 title: 'Orientación integral',
                 description:
-                  'Servicios presentados desde una mirada complementaria y de bienestar.',
+                  'Servicios presentados desde una mirada de cuidado, bienestar y acompañamiento.',
               },
               {
                 icon: Sparkles,
                 title: 'Experiencia clara',
                 description:
-                  'Información fácil de consultar, sin listados pesados ni saturación visual.',
+                  'Información fácil de consultar, con una estructura visual limpia y ordenada.',
               },
               {
                 icon: Clock,
                 title: 'Contenido actualizable',
                 description:
-                  'Estructura lista para cambiar imágenes, textos y servicios cuando ASOMDE valide la información.',
+                  'Estructura lista para cambiar imágenes, textos y detalles cuando ASOMDE entregue información adicional.',
               },
             ].map((item) => {
               const Icon = item.icon;
@@ -296,22 +296,22 @@ export function ServicesPage() {
             <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
               <div>
                 <p className="mb-4 text-sm font-semibold uppercase tracking-[0.24em] text-orange-300">
-                  Información pendiente de validación
+                  Servicios actuales
                 </p>
 
                 <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-                  La lista final de servicios será confirmada con ASOMDE.
+                  ASOMDE ofrece cuatro líneas principales de atención.
                 </h2>
 
                 <p className="mt-5 leading-8 text-blue-50/85">
-                  Por ahora dejamos una estructura visual sólida con servicios
-                  provisionales. Cuando se reciba la información oficial, solo se ajustan
-                  textos, imágenes y nombres sin cambiar la arquitectura de la página.
+                  Esta sección queda organizada con los servicios informados actualmente.
+                  Más adelante podremos ajustar descripciones, imágenes o detalles de cada
+                  servicio si ASOMDE entrega información complementaria.
                 </p>
               </div>
 
               <div className="rounded-[2rem] border border-white/15 bg-white/10 p-6 backdrop-blur-md">
-                <h3 className="text-xl font-bold">Servicios provisionales</h3>
+                <h3 className="text-xl font-bold">Servicios ASOMDE</h3>
 
                 <div className="mt-5 grid gap-3">
                   {services.map((service) => (

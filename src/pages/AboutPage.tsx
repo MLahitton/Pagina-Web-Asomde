@@ -8,6 +8,7 @@ import {
   Leaf,
   MessageCircle,
   ShieldCheck,
+  Sparkles,
   Target,
   UsersRound,
 } from 'lucide-react';
@@ -36,9 +37,9 @@ export function AboutPage() {
               </h1>
 
               <p className="mt-6 max-w-3xl text-lg leading-9 text-slate-600">
-                ASOMDE acompaña a la comunidad desde la medicina bioenergética y terapias
-                complementarias, promoviendo una atención humana, cercana y orientada al
-                bienestar.
+                ASOMDE acompaña a la comunidad mediante servicios de medicina general,
+                acupuntura, terapias bioenergéticas y terapias alternativas especiales,
+                promoviendo una atención humana, cercana y orientada al bienestar.
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -114,15 +115,15 @@ export function AboutPage() {
             <SectionHeader
               eyebrow="Quiénes somos"
               title="Fundación ASOMDE"
-              description="Somos una institución orientada al bienestar integral, con una trayectoria construida desde la atención complementaria, el servicio y la confianza."
+              description="Somos una institución orientada al cuidado y bienestar integral, con una trayectoria construida desde la atención, el servicio y la confianza."
             />
 
             <div className="rounded-[2.5rem] border border-slate-100 bg-white p-7 shadow-sm sm:p-9">
               <div className="space-y-5 leading-8 text-slate-600">
                 <p>
                   La Fundación ASOMDE ha desarrollado su labor desde una visión integral
-                  del bienestar, ofreciendo servicios relacionados con medicina
-                  bioenergética y terapias complementarias.
+                  del bienestar, ofreciendo servicios de medicina general, acupuntura,
+                  terapias bioenergéticas y terapias alternativas especiales.
                 </p>
 
                 <p>
@@ -173,13 +174,14 @@ export function AboutPage() {
               </p>
 
               <h2 className="text-3xl font-bold text-slate-950">
-                Acompañar el bienestar integral
+                Acompañar el cuidado y bienestar integral
               </h2>
 
               <p className="mt-5 leading-8 text-slate-600">
-                Brindar servicios de medicina bioenergética y terapias complementarias
-                orientados al bienestar integral de los usuarios, mediante una atención
-                humana, respetuosa y comprometida.
+                Brindar servicios orientados al cuidado y bienestar integral de los
+                usuarios, mediante atención en medicina general, acupuntura, terapias
+                bioenergéticas y terapias alternativas especiales, con un enfoque humano,
+                respetuoso y comprometido.
               </p>
             </article>
 
@@ -193,13 +195,13 @@ export function AboutPage() {
               </p>
 
               <h2 className="text-3xl font-bold text-slate-950">
-                Ser referente en atención complementaria
+                Ser referente en atención integral
               </h2>
 
               <p className="mt-5 leading-8 text-slate-600">
-                Ser reconocidos como una fundación referente en atención integral,
-                terapias complementarias y acompañamiento bioenergético, fortaleciendo la
-                confianza de nuestros usuarios y la comunidad.
+                Ser reconocidos como una fundación referente en servicios de cuidado,
+                bienestar integral y terapias alternativas, fortaleciendo la confianza de
+                nuestros usuarios y la comunidad.
               </p>
             </article>
           </div>

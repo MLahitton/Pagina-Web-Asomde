@@ -20,7 +20,7 @@ export const aboutStats = [
   {
     value: '30+',
     label: 'años de trayectoria',
-    description: 'Acompañando procesos de bienestar integral.',
+    description: 'Acompañando procesos de cuidado y bienestar integral.',
   },
   {
     value: '2',
@@ -39,7 +39,7 @@ export const institutionalPillars: InstitutionalPillar[] = [
     id: 'historia',
     title: 'Historia',
     description:
-      'ASOMDE ha construido una trayectoria institucional enfocada en el bienestar, la atención complementaria y el acompañamiento humano.',
+      'ASOMDE ha construido una trayectoria institucional enfocada en el cuidado, el bienestar y el acompañamiento humano.',
   },
   {
     id: 'atencion',
@@ -51,7 +51,7 @@ export const institutionalPillars: InstitutionalPillar[] = [
     id: 'bienestar',
     title: 'Bienestar integral',
     description:
-      'La fundación promueve una mirada complementaria que considera el equilibrio físico, emocional y energético.',
+      'La fundación promueve una mirada integral que considera la atención médica, el acompañamiento y las terapias alternativas.',
   },
 ];
 
@@ -93,7 +93,7 @@ export const timelineItems: TimelineItem[] = [
     year: 'Inicio',
     title: 'Nacimiento de ASOMDE',
     description:
-      'La fundación surge con el propósito de brindar acompañamiento desde la medicina bioenergética y terapias complementarias.',
+      'La fundación surge con el propósito de brindar acompañamiento institucional desde servicios de salud, bienestar y terapias alternativas.',
   },
   {
     year: 'Trayectoria',

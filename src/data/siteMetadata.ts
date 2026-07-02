@@ -7,28 +7,28 @@ export type RouteMetadata = {
 export const siteConfig = {
   name: 'Fundación ASOMDE',
   siteUrl: 'https://fundacionasomde.org',
-  defaultTitle: 'Fundación ASOMDE | Medicina bioenergética y bienestar integral',
+  defaultTitle: 'Fundación ASOMDE | Medicina general, acupuntura y bienestar integral',
   defaultDescription:
-    'Página institucional de la Fundación ASOMDE en Bucaramanga. Servicios de medicina bioenergética, terapias complementarias, atención al usuario e información legal.',
+    'Página institucional de la Fundación ASOMDE en Bucaramanga. Servicios de medicina general, acupuntura, terapias bioenergéticas, terapias alternativas especiales, atención al usuario e información legal.',
   logo: '/images/brand/asomde-logo.webp',
   locale: 'es_CO',
 };
 
 export const routeMetadata: Record<string, RouteMetadata> = {
   '/': {
-    title: 'Fundación ASOMDE | Medicina bioenergética y bienestar integral',
+    title: 'Fundación ASOMDE | Medicina general, acupuntura y bienestar integral',
     description:
-      'Conoce la Fundación ASOMDE, sus servicios de medicina bioenergética, terapias complementarias, sedes, atención al usuario e información institucional.',
+      'Conoce la Fundación ASOMDE, sus servicios de medicina general, acupuntura, terapias bioenergéticas, terapias alternativas especiales, sedes, atención al usuario e información institucional.',
   },
   '/nosotros': {
     title: 'Nosotros | Fundación ASOMDE',
     description:
-      'Conoce la historia, misión, visión, valores y trayectoria de la Fundación ASOMDE, institución orientada al bienestar integral.',
+      'Conoce la historia, misión, visión, valores y trayectoria de la Fundación ASOMDE, institución orientada al cuidado y bienestar integral.',
   },
   '/servicios': {
     title: 'Servicios | Fundación ASOMDE',
     description:
-      'Consulta los servicios ofrecidos por la Fundación ASOMDE en medicina bioenergética y terapias complementarias.',
+      'Consulta los servicios ofrecidos por la Fundación ASOMDE: medicina general, acupuntura, terapias bioenergéticas y terapias alternativas especiales.',
   },
   '/atencion-usuario': {
     title: 'Atención al Usuario | Fundación ASOMDE',

@@ -53,7 +53,7 @@ const institutionalHighlights = [
   {
     value: '30+',
     label: 'años de trayectoria',
-    description: 'Acompañamiento integral desde una visión humana y complementaria.',
+    description: 'Acompañamiento integral desde una visión humana y cercana.',
   },
   {
     value: '2',
@@ -61,17 +61,17 @@ const institutionalHighlights = [
     description: 'Presencia institucional en Bucaramanga y Barrancabermeja.',
   },
   {
-    value: '100%',
-    label: 'sitio informativo',
-    description: 'Página frontend sin backend, preparada para información pública.',
+    value: '4',
+    label: 'líneas de servicio',
+    description: 'Medicina general, acupuntura y terapias orientadas al bienestar.',
   },
 ];
 
 const trustItems = [
-  'Medicina bioenergética y terapias complementarias.',
-  'Información normativa centralizada.',
-  'Canales de atención visibles y accesibles.',
-  'Documentos institucionales preparados para consulta.',
+  'Medicina general y orientación inicial en salud.',
+  'Acupuntura y terapias alternativas especiales.',
+  'Terapias bioenergéticas orientadas al bienestar integral.',
+  'Información normativa y canales institucionales accesibles.',
 ];
 
 export function HomePage() {
@@ -91,17 +91,17 @@ export function HomePage() {
           >
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-white px-4 py-2 text-sm font-semibold text-emerald-800 shadow-sm">
               <HeartPulse size={17} />
-              Fundación ASOMDE · Bienestar integral
+              Fundación ASOMDE · Salud y bienestar integral
             </div>
 
             <h1 className="max-w-4xl text-[2.45rem] font-black leading-[1.08] tracking-tight text-slate-950 sm:text-5xl lg:text-6xl">
-              Medicina bioenergética y terapias complementarias con enfoque humano.
+              Medicina general, acupuntura y terapias para el bienestar integral.
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-9 text-slate-600">
-              En la Fundación ASOMDE acompañamos procesos de bienestar integral mediante
-              servicios complementarios, atención cercana e información institucional
-              clara para nuestros usuarios.
+              En la Fundación ASOMDE acompañamos procesos de cuidado y bienestar mediante
+              medicina general, acupuntura, terapias bioenergéticas y terapias
+              alternativas especiales, con una atención cercana e institucional.
             </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -159,7 +159,7 @@ export function HomePage() {
                     <div>
                       <p className="font-bold text-slate-950">Atención humanizada</p>
                       <p className="text-sm text-slate-600">
-                        Bienestar, confianza y orientación
+                        Cuidado, confianza y bienestar
                       </p>
                     </div>
                   </div>
@@ -174,7 +174,7 @@ export function HomePage() {
                 </div>
                 <div>
                   <p className="text-sm font-bold text-slate-950">Servicios ASOMDE</p>
-                  <p className="text-sm text-slate-500">Terapias complementarias</p>
+                  <p className="text-sm text-slate-500">Salud y bienestar integral</p>
                 </div>
               </div>
             </div>
@@ -205,8 +205,8 @@ export function HomePage() {
             <div>
               <SectionHeader
                 eyebrow="Nuestra esencia"
-                title="Una fundación orientada al bienestar integral"
-                description="ASOMDE combina trayectoria, atención humanizada y servicios complementarios en un entorno institucional moderno, confiable y cercano."
+                title="Una fundación orientada al cuidado y bienestar integral"
+                description="ASOMDE combina trayectoria, atención humanizada y servicios orientados al bienestar en un entorno institucional moderno, confiable y cercano."
               />
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -234,7 +234,7 @@ export function HomePage() {
               {[
                 {
                   title: 'Trayectoria',
-                  text: 'Más de tres décadas acompañando procesos de bienestar desde Bucaramanga.',
+                  text: 'Más de tres décadas acompañando procesos de cuidado y bienestar.',
                   icon: Sparkles,
                 },
                 {
@@ -244,7 +244,7 @@ export function HomePage() {
                 },
                 {
                   title: 'Enfoque integral',
-                  text: 'Servicios complementarios pensados para apoyar el equilibrio y el bienestar.',
+                  text: 'Servicios de medicina general, acupuntura y terapias orientadas al bienestar.',
                   icon: HeartPulse,
                 },
                 {
@@ -279,8 +279,8 @@ export function HomePage() {
           <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
             <SectionHeader
               eyebrow="Servicios destacados"
-              title="Acompañamiento complementario para tu bienestar"
-              description="Estos servicios son provisionales y serán validados con ASOMDE antes de la publicación final."
+              title="Acompañamiento para tu salud y bienestar"
+              description="ASOMDE ofrece servicios de medicina general, acupuntura, terapias bioenergéticas y terapias alternativas especiales."
             />
 
             <Link

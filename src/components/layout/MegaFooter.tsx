@@ -142,13 +142,14 @@ export function MegaFooter() {
 
               <div>
                 <p className="font-bold">Fundación ASOMDE</p>
-                <p className="text-sm text-blue-100">Medicina bioenergética</p>
+                <p className="text-sm text-blue-100">Salud y bienestar integral</p>
               </div>
             </div>
 
             <p className="mt-5 text-sm leading-7 text-blue-50/85">
-              Institución orientada al bienestar integral mediante servicios de medicina
-              bioenergética y terapias complementarias.
+              Institución orientada al cuidado y bienestar integral mediante servicios de
+              medicina general, acupuntura, terapias bioenergéticas y terapias
+              alternativas especiales.
             </p>
           </div>
 
